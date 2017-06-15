@@ -1,0 +1,14 @@
+package org.foobarspam.main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		for(int contador = 3;contador<=10;contador++) 
+		{
+			System.out.println("El contador vale: "+contador);
+		}
+
+	}
+
+}

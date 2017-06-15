@@ -1,0 +1,47 @@
+package org.foobarspam.main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//int
+		System.out.println("Ejemplo con enteros\n");
+		int x;
+		x = 0;
+		switch(x)
+		{
+		case 0:
+		{
+			System.out.println("Esta es la opcion 0");
+			break; //Importante así salimos del ciclo 
+		}
+		case 1:
+		{
+			System.out.println("Esta es la opcion 1");
+			break;
+		}
+		}
+		//char
+		System.out.println("Ejemplo con characteres\n");
+		char y;
+		y = 'c';
+		switch(y)
+		{
+		case 'a':
+		{
+			System.out.println("Esta es la opcion 0");
+			break; //Importante así salimos del ciclo 
+		}
+		case 'b':
+		{
+			System.out.println("Esta es la opcion 1");
+			break;
+		}
+		default:
+		{
+			System.out.println("Esta opcion es la opcion por defecto");
+		}
+		}
+
+	}
+
+}

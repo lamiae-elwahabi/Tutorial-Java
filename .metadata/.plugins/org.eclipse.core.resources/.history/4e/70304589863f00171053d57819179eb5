@@ -1,0 +1,110 @@
+package org.foobarspam.main;
+
+public class Main {
+	/**
+	 * Operandos lógicos
+	 * >, >=, <, <=, ==, ||, &&, !
+	 */
+
+	public static void main(String[] args) {
+		
+		System.out.println("###Codigo Facilito##\n");
+	
+		//Varibles
+		boolean cond = true;
+		int var=7;
+		int var2 = 10;
+		
+		//Condición igualar 
+		if(var==8)
+		{
+			System.out.println("Tu operación es verdadera");
+		}
+		else 
+		{
+			System.out.println("Tu operación es falsa");
+		}
+		
+		//Condución mayor
+		if(var>5)
+		{
+			System.out.println("Tu operación es verdadera");
+		}
+		else 
+		{
+			System.out.println("Tu operación es falsa");
+		}
+		
+		//Condución mayor o igual
+		if(var>=8) 
+		{
+			System.out.println("Tu operación es verdadera");
+		}
+		else 
+		{
+			System.out.println("Tu operación es falsa");
+		}
+		//Condución menor
+		if(var<10)
+		{
+			System.out.println("Tu operación es verdadera");
+		}
+		else 
+		{
+			System.out.println("Tu operación es falsa");
+		}
+				
+		//Conducion menor o igual 
+		//(if/else dentro if/else)
+		if(var<= 19) 
+		{
+			cond = true;
+			
+		}
+		else 
+		{
+			cond = false;
+			
+		}
+			if(cond)
+			{
+				System.out.println("Tu operación es verdadera");
+			}
+			else 
+			{
+				System.out.println("Tu operación es falsa");
+			}
+					
+		//Conducion and 
+		if((var==6) && (var2>5)) 
+		{
+			System.out.println("La operacion es verdadera");
+		}
+		else 
+		{
+			System.out.println("La operacion es falsa");
+		}
+		//Conducion or
+		if((var==6) || (var2>5)) 
+		{
+			System.out.println("La operacion es verdadera");
+		}
+		else 
+		{
+			System.out.println("La operacion es falsa");
+		}
+		//Condicion negación
+		if(!(var==6) && (var2>5)) 
+		{
+			System.out.println("La operacion es verdadera");
+		}
+		else 
+		{
+			System.out.println("La operacion es falsa");
+		}
+		
+		
+
+	}
+
+}

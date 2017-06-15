@@ -1,0 +1,31 @@
+package org.foobarspam.main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Imprimer el valor de x\n");
+		int x=0;
+		while(x<=10)
+		{
+			System.out.println("El valor de X es: " +x);
+			x = x+2;
+		}
+		
+		System.out.println("Imprimer el valor de y\n");
+		boolean cond=true;
+		int y=0;
+		while(cond) 
+		{
+			System.out.println("El valor de Y es: " +y);
+			y = y+2;
+			
+			if(y > 8 )
+				{
+					cond=false;
+				}
+		}
+
+	}
+
+}

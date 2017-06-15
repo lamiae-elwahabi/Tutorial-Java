@@ -1,0 +1,40 @@
+package org.foobarspam.main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Serie de numeros impares
+		System.out.println("Serie de numeros impares\n");
+		for(int i=0;i<=100;i++) 
+		{	
+			
+			if((i%2) !=0)
+			{
+				System.out.println(i);
+			}
+		}
+		
+		//Series de fibonacci 0,1,1,2,3,5,8,11.....
+		System.out.println("Serie de fibonacci\n");
+		int x = 1;
+		int anterior = 0;
+		int temporal;
+		while(true)
+		{	
+			System.out.println(x);
+			temporal = x;
+			x = x + anterior;
+			anterior = temporal;
+			
+			if(x > 30)
+			{
+				break;
+				
+			}
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package org.foobarspam.main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Sentencia de if
+		int numero=5;
+		
+		if(numero==5)
+		{
+			
+			//Codigo
+			System.out.println("Tu operación es verdadera");
+		}
+		else 
+		{
+			//Codigo
+			System.out.println("Tu operación es falsa");
+			
+		}
+
+	}
+
+}

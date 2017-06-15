@@ -1,0 +1,26 @@
+package org.foobarspam.main;
+
+public class Main {
+	
+	/**
+	 *short - numeros cortos 
+	 *int - numeros enteros
+	 *long - numeros enteros largos
+	 
+	 *float - numeros flotantes
+	 *double - numeros dobles 
+	 *byte - se maneja en bytes
+	 *char - caracteres
+	 *boolean - boleanos, verdaderos o falsos
+	 *String - cadenas de texto
+	 *  + -  * / % 
+	 */
+	public static void main(String[] args) {
+		
+		int numero;
+		numero = 5;
+		System.out.println(numero);
+		
+	}
+
+}
